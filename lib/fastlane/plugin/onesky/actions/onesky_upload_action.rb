@@ -78,7 +78,7 @@ module Fastlane
                                        description: "Locale of the strings file.",
                                        is_string: true,
                                        optional: true
-                                       )
+                                       ),
           FastlaneCore::ConfigItem.new(key: :deprecate_missing,
                                        env_name: 'ONESKY_DEPRECATE_MISSING',
                                        description: 'Should missing phrases be marked as deprecated in OneSky?',
