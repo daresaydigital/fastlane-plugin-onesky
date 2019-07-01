@@ -75,7 +75,7 @@ module Fastlane
                                        end),
           FastlaneCore::ConfigItem.new(key: :strings_file_locale,
                                        env_name: "ONESKY_STRINGS_LOCALE",
-                                       description: "Locale of the strings file.",
+                                       description: "Locale of the strings file",
                                        is_string: true,
                                        optional: true
                                        ),
