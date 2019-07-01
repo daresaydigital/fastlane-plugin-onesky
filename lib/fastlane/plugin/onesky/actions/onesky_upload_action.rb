@@ -13,6 +13,7 @@ module Fastlane
         resp = project.upload_file(
           file: params[:strings_file_path],
           file_format: params[:strings_file_format],
+          locale: params[:strings_file_locale]
           is_keeping_all_strings: !params[:deprecate_missing]
         )
 
